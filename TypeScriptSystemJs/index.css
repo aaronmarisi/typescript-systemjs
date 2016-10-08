@@ -1,0 +1,31 @@
+﻿body, li, input {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.list { 
+    list-style-type: none;
+    border-bottom: 1px solid lightgray;
+    width: 200px;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.list li {
+    padding: 5px;
+}
+
+.list-item:nth-child(odd) {
+    background-color: lightblue
+}
+
+.list-item {
+    border: 1px solid lightgray;
+    border-bottom: none;
+    text-indent: 0;
+}
+
+.no-items {
+    background-color: lightgray;
+    text-indent: 0;
+}
